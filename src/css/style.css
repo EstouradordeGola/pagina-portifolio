@@ -58,7 +58,7 @@ section div.box{
 
 }
 section div.box img{
-    width: 200px;
+    width: 150px;
     padding: 10px;
 }
 section div.box p{
@@ -109,3 +109,6 @@ section div.box p{
         color: #fff;    
     }
 
+#cartao img{
+    width: 100px;
+}
