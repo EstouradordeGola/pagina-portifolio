@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sobre Nós – Streethype</title>
+  <link rel="stylesheet" href="static/css/reset.css">
+  <style>
+    :root {
+      --bg-darker: #0d0d0d;
+      --bg-dark:   #1a1a1a;
+      --text-light:#f5f5f5;
+      --text-muted:#b3b3b3;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg-darker);
+      color: var(--text-light);
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+        background-color: #222;
+        padding: 1rem;
+        text-align: center;
+    }
+    header img:hover{
+        box-shadow: 0 0 15px #220,inset 0 0 15px #220;
+        text-shadow: 0 0 15px ;
+        border-color: #222;
+        transition: all 0.2s ease-in-out;
+        
+    }
+    header .logo-placeholder img {
+        max-width: 150px;
+    }
+
+    .logo-placeholder {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--text-muted);
+    }
+
+    main {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background-color: var(--bg-dark);
+      padding: 40px;
+      border-radius: 8px;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      font-size: 1rem;
+      color: var(--text-muted);
+    }
+
+    footer {
+      background-color: var(--bg-dark);
+      color: var(--text-muted);
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 80px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-placeholder"><a href="/templates/index.html"></a><img src="static/images/logostreet.png"></div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre a Streethype</h2>
+      <p>
+        Nascida em 2023, nossa marca é um reflexo da rua: autêntica, crua e cheia de atitude.
+        Criamos roupas que respiram cultura urbana — do skate ao rap, do concreto ao estilo.
+        Cada peça carrega identidade, liberdade e a força de quem vive fora do padrão.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2023 Streethype. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
+```
